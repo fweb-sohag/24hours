@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-family: 'Amita', cursive;
+    font-size: 150px;
+}
+
+.conunt{
+    width: 900px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: content-box;
+    margin-left: 150px;
+   
+
+}
+.conunt .time{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 10%;
+    float: left;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+.conunt .time h3{
+    font-family: 'Amita', cursive;
+    font-size: 70px;
+}
+.conunt .time p{
+    font-family: 'Amita', cursive;
+    font-size: 30px;
+}
